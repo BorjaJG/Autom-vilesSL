@@ -8,6 +8,15 @@ public class Vehicle {
     private String engine;
     private String horser;
 
+    private Boolean vendido;
+
+    public Boolean getVendido() {
+        return vendido;
+    }
+
+    public void setVendido(Boolean vendido) {
+        this.vendido = vendido;
+    }
 
     public String getVehicleRegistration() {
         return vehicleRegistration;
